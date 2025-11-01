@@ -1,0 +1,22 @@
+name = "GeoTests"
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+GeoStats = "dcc97b0b-8ce5-5539-9008-bb190f959ef6"
+GeoStatsBase = "323cb8eb-fbf6-51c0-afd0-f8fba70507b2"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+TransformsBase = "28dd2a49-a57a-4bfb-84ca-1a49db9b96b8"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
