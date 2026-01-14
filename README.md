@@ -1,8 +1,3 @@
-Here is the translated **README.md** in English.
-
-I have formatted the image link so that it tries to render directly in the Markdown file (converting the Google Drive link to a direct view link).
-
-```markdown
 # GeoTests
 
 ![GeoTests Preview](https://drive.google.com/uc?export=view&id=1Rr1EEQ5iTdNVfvWxvZh5SqgQ_clTFGUy)
@@ -46,5 +41,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 I converted your Google Drive link to a format that allows it to be embedded directly in Markdown (`https://drive.google.com/uc?export=view&id=...`). If you just want a clickable text link instead of the image showing up on the page, use this format instead:
 
 `[View Image](https://drive.google.com/file/d/1Rr1EEQ5iTdNVfvWxvZh5SqgQ_clTFGUy/view?usp=sharing)`
-
-```
