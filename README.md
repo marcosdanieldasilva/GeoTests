@@ -1,32 +1,50 @@
+Here is the translated **README.md** in English.
+
+I have formatted the image link so that it tries to render directly in the Markdown file (converting the Google Drive link to a direct view link).
+
+```markdown
 # GeoTests
 
-Um pacote Julia para testes geoespaciais.
+![GeoTests Preview](https://drive.google.com/uc?export=view&id=1Rr1EEQ5iTdNVfvWxvZh5SqgQ_clTFGUy)
 
-## Instalação
+A Julia package for geospatial testing and benchmarking.
 
-Para instalar o pacote, execute o seguinte comando no REPL do Julia:
+## Installation
+
+To install the package, execute the following command in the Julia REPL:
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/seu-usuario/GeoTests.jl")
+Pkg.add(url="[https://github.com/your-username/GeoTests.jl](https://github.com/your-username/GeoTests.jl)")
+
 ```
 
-## Uso
+## Usage
 
 ```julia
 using GeoTests
 
-# Exemplos de uso serão adicionados aqui
+# Usage examples will be added here
+
 ```
 
-## Contribuindo
+## Contributing
 
-1. Fork o projeto
-2. Crie sua branch de feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Licença
+## License
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+```
+
+### Note on the Image Link
+I converted your Google Drive link to a format that allows it to be embedded directly in Markdown (`https://drive.google.com/uc?export=view&id=...`). If you just want a clickable text link instead of the image showing up on the page, use this format instead:
+
+`[View Image](https://drive.google.com/file/d/1Rr1EEQ5iTdNVfvWxvZh5SqgQ_clTFGUy/view?usp=sharing)`
+
+```
