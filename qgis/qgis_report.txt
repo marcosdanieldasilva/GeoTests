@@ -1,0 +1,26 @@
+Versão do QGIS: 3.30.3-'s-Hertogenbosch
+Código de revisão do QGIS: 2411cec1
+Versão do Qt: 5.15.3
+Versão do Python: 3.9.5
+Versão do GDAL: 3.7.0
+Versão do GEOS: 3.11.2-CAPI-1.17.2
+Versão do PROJ: Rel. 9.2.0, March 1st, 2023
+Versão PDAL: 2.5.3 (git-version: 7ec4e6)
+Algoritmo iniciado as: 2026-01-14T14:29:21
+Algoritmo 'Recortar raster pela camada de máscara' iniciando…
+Input parameters:
+{ 'ALPHA_BAND' : False, 'CROP_TO_CUTLINE' : True, 'DATA_TYPE' : 0, 'EXTRA' : '', 'INPUT' : 'C:/Users/marco/OneDrive/Documents/Julia/GeoTests/bench/ortho.tif', 'KEEP_RESOLUTION' : False, 'MASK' : 'C:/Users/marco/OneDrive/Documents/Julia/GeoTests/bench/benchpoly.gpkg|layername=extenso', 'MULTITHREADING' : False, 'NODATA' : None, 'OPTIONS' : '', 'OUTPUT' : 'C:/Users/marco/OneDrive/Documents/Julia/GeoTests/bench/clipped_qgis.tif', 'SET_RESOLUTION' : False, 'SOURCE_CRS' : None, 'TARGET_CRS' : None, 'TARGET_EXTENT' : None, 'X_RESOLUTION' : None, 'Y_RESOLUTION' : None }
+
+Comando GDAL:
+gdalwarp -overwrite -of GTiff -cutline C:/Users/marco/OneDrive/Documents/Julia/GeoTests/bench/benchpoly.gpkg -cl extenso -crop_to_cutline C:/Users/marco/OneDrive/Documents/Julia/GeoTests/bench/ortho.tif C:/Users/marco/OneDrive/Documents/Julia/GeoTests/bench/clipped_qgis.tif
+Saída do comando GDAL:
+Using band 4 of source image as alpha. 
+Creating output file that is 7455P x 4991L. 
+Processing C:/Users/marco/OneDrive/Documents/Julia/GeoTests/bench/ortho.tif [1/1] : 0...10...20...30...40...50...60...70...80...90...100 - done.
+Processo concluído com sucesso
+Execution completed in 2.57 seconds
+Results:
+{'OUTPUT': 'C:/Users/marco/OneDrive/Documents/Julia/GeoTests/bench/clipped_qgis.tif'}
+
+Carregando camada resultante
+Algorithm 'Recortar raster pela camada de máscara' finished
