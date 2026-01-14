@@ -3,6 +3,7 @@ version = "0.1.0"
 authors = ["Your Name <your.email@example.com>"]
 
 [deps]
+ArchGDAL = "c9ce4bd3-c3d5-55b8-8973-c0e20141b8c3"
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 GeoIO = "f5a160d5-e41d-4189-8b61-d57781c419e3"
 GeoStats = "dcc97b0b-8ce5-5539-9008-bb190f959ef6"

@@ -1,0 +1,19 @@
+--- Preparation ---
+1. Loading vector data...
+2. Reading raster metadata...
+CRS are already aligned.
+
+========================================
+STARTING TEST 1: Spatial Index Selection (Query)
+========================================
+Selection Time:   0.0008 seconds
+Total Polygons:   1
+Selected Polygons: 1
+
+========================================
+STARTING TEST 2: Clip (Mask)
+========================================
+Clip Time:        2.3262 seconds
+Result Shape:     (4, 4991, 7456)
+----------------------------------------
+TOTAL TIME (Index + Clip): 2.3269 seconds
