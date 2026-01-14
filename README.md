@@ -14,15 +14,6 @@ Pkg.add(url="[https://github.com/your-username/GeoTests.jl](https://github.com/y
 
 ```
 
-## Usage
-
-```julia
-using GeoTests
-
-# Usage examples will be added here
-
-```
-
 ## Contributing
 
 1. Fork the project
@@ -34,8 +25,6 @@ using GeoTests
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-```
 
 ### Note on the Image Link
 I converted your Google Drive link to a format that allows it to be embedded directly in Markdown (`https://drive.google.com/uc?export=view&id=...`). If you just want a clickable text link instead of the image showing up on the page, use this format instead:
