@@ -1,8 +1,13 @@
 # GeoTests
 
-![GeoTests Preview](https://drive.google.com/uc?export=view&id=1Rr1EEQ5iTdNVfvWxvZh5SqgQ_clTFGUy)
-
 A Julia package for geospatial testing and benchmarking.
+
+## Resources
+
+**Benchmark Visualization / Test Data**
+Due to the file size, the reference image is hosted externally. You can view or download it via the link below:
+
+* [📂 Download High-Res Benchmark Image (Google Drive)](https://drive.google.com/file/d/1Rr1EEQ5iTdNVfvWxvZh5SqgQ_clTFGUy/view?usp=sharing)
 
 ## Installation
 
@@ -25,8 +30,3 @@ Pkg.add(url="[https://github.com/your-username/GeoTests.jl](https://github.com/y
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-### Note on the Image Link
-I converted your Google Drive link to a format that allows it to be embedded directly in Markdown (`https://drive.google.com/uc?export=view&id=...`). If you just want a clickable text link instead of the image showing up on the page, use this format instead:
-
-`[View Image](https://drive.google.com/file/d/1Rr1EEQ5iTdNVfvWxvZh5SqgQ_clTFGUy/view?usp=sharing)`
